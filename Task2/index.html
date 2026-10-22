@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletics Carnival Registration</title>
+
+</head>
+<body>
+    <h1>Athletics Carnival Registration</h1>
+    <p>Fields marked * are required.</p>
+
+
+    <form>
+        <fieldset>
+            <legend>Student Details</legend>
+            <label id="name">First name *</label> <br>
+            <input type="text" placeholder="name" id="name" required> <br><br>
+
+            <label id="name">School email *</label> <br>
+            <input type="text" placeholder="name@school.edu.au" id="email" required> <br><br>
+
+            <label id="age">Age</label> <br>
+            <input type="number" id="age" min="5" max="19"> <br><br>
+
+            <label id="dob">Date of birth</label><br>
+            <input type="date" id="dob" min="2007-01-01" max="">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Events</legend>
+            <p>House *</p> 
+
+            <input type="radio" id="red" name="houses">
+            <label for="red">Red</label>
+
+            <input type="radio" id="blue" name="houses">
+            <label for="blue">Blue</label>
+
+            <input type="radio" id="green" name="houses">
+            <label for="green">Green</label>
+
+            <input type="radio" id="gold" name="houses">
+            <label for="gold">Gold</label> <br>
+
+            <p>Events entered (choose any) *</p>
+
+            <input type="checkbox" id="100m" name="events">
+            <label for="100m">100m</label> <br>
+            <input type="checkbox" id="400m" name="events">
+            <label for="400m">400m</label> <br>
+            <input type="checkbox" id="longjump" name="events">
+            <label for="longjump">Long jump</label> <br>
+            <input type="checkbox" id="shotput" name="events">
+            <label for="shotput">Shot put</label> <br>
+            <br>
+            <label for="tshirt">T-shirt size</label>
+            <select id="tshirt">
+                <option>Medium</option>
+                <option>Large</option>
+                <option>Extra Large</option>
+            </select>
+            <br><br>
+            <label for="notes">Medical notes</label><br>
+            <textarea id="notes" placeholder="Allergies, injuries, etc."></textarea>
+        </fieldset>
+
+        <button type="submit">Register</button>
+        <button type="clear">Clear form</button>
+    </form> 
+
+
+    
+</body>
+</html>

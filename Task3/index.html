@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reviews</title>
+    <style>
+        body 
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            background-color:gainsboro;
+        }
+
+        .header 
+        {
+            text-align: center;
+            color: white;
+            background-color:rgb(2, 56, 83);
+
+            padding: 10px;
+            margin: auto;
+        }
+
+        main 
+        {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            margin: 20px 40px;
+        }
+
+        .cards
+        {
+            background-color: whitesmoke;
+            margin-bottom: 15px;
+            padding: 15px 20px; 
+            border: 3px solid grey;
+            border-radius: 0.75rem;
+        }
+
+        .active 
+        {
+            border: 3px solid goldenrod;
+            background-color: rgb(242, 223, 176);
+        }
+
+        h2 
+        {
+            color: rgb(2, 56, 83);
+            margin-bottom: 0;
+        }
+
+        span
+        {
+            color: white;
+            background-color: rgb(2, 56, 83);
+            padding: 0.4rem;
+            border-radius: 5px;
+        }
+
+        .author
+        {
+            color: grey;
+        }
+
+        .stars
+        {
+            font-size: 1.5rem;
+            color: goldenrod;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Year 12 Book Club</h1>
+        <p><i>Reviews by students, for students</i></p>
+    </div>
+    <main>
+        <div class="cards active">
+            <p><span>BOOK OF THE MONTH</span></p>
+            <h2>The Midnight Library</h2>
+            <p class="author">by Matt Haig</p>
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <p>A thoughtful story about the choices we make. 
+                Easy to read and hard to put down.</p>
+        </div>
+
+        <div class="cards">
+            <h2>Holes</h2>
+            <p class="author">by Louis Sachar</p>
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+            <p>Three timelines that click 
+                together perfectly by the final chapter.</p>
+        </div>
+
+        <div class="cards">
+            <h2>Tomorrow, When the War Began</h2>
+            <p class="author">by John Marsden</p>
+            <p class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</p>
+            <p>A tense Australian classic. The middle drags
+                a little but the ending is worth it.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
