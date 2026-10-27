@@ -1,0 +1,83 @@
+body {
+    margin: auto;
+}
+
+header {
+    background-color: darkgreen;
+}
+
+nav {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+    padding: 0px 15px;
+    
+}
+
+.navBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;   
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 7px;
+
+}
+
+.active {
+    background-color: orange;
+}
+
+body {
+    background-color: rgb(233, 250, 233);
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    background-color: rgb(193, 222, 193);
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-left: 7px solid orange;
+    padding: 7px;
+}
+
+footer {
+    background-color: rgb(33, 31, 31);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
